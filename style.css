@@ -21,6 +21,10 @@
   border-radius: 15px;
   cursor: pointer;
   color: white;
+  transition: 1s;
+}
+.block-2:not(:hover) {
+  transition: 2s;
 }
 .block:last-child {
   margin-right: 0;
