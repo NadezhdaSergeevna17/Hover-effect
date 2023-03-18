@@ -14,7 +14,7 @@
   background-color: rgb(151, 151, 253);
   border: 5px solid rgb(38, 38, 241);
 }
-.block-2:hover {
+.block:hover {
   background-color: rgb(68, 230, 154);
   border: 5px solid white;
   box-shadow: 0 0 20px rgb(20, 20, 20);
@@ -23,7 +23,7 @@
   color: white;
   transition: 1s;
 }
-.block-2:not(:hover) {
+.block:not(:hover) {
   transition: 2s;
 }
 .block:last-child {
